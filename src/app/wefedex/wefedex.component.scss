@@ -1,0 +1,45 @@
+.fedex-main-container {
+    max-width: 1200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: #fff;
+    border-radius: 4px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+
+  h1 {
+        margin-top: 20px;
+        text-align: center;
+        color: #4d148c;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        font-size: 1.75em;
+        
+    }
+
+   .role-section {
+        background: white;
+        margin: 15px 0;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .role-section h2 {
+         color: #4d148c;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        margin-top: 0;
+        font-size: 1.25em;
+    }
+
+    .fedex-content {
+        flex: 1;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+
+        main {
+            padding: 20px;
+        }
+    }
+}

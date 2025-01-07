@@ -1,0 +1,43 @@
+.fedex-main-container{
+    max-width: 1200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: #fff;
+    border-radius: 4px;
+   
+    .fedex-content{
+        flex:1;
+        width:100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+        margin-left: 35px;
+        color: #4d148c;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        font-size: .875rem;
+    }
+    h1 {
+        color: #4d148c;
+        text-align: center;
+    }
+    h2 {
+        color: #4d148c;
+        border-bottom: 2px solid #4d148c;
+        padding-bottom: 5px;
+    }
+    ul {
+        list-style-type: disc;
+        margin: 10px 0 20px 20px;
+    }
+    ul li {
+        margin-bottom: 8px;
+    }
+    .section {
+        margin-bottom: 30px;
+    }
+    .value-prop {
+      
+        padding: 15px;
+        border-left: 5px solid #4d148c;
+        border-radius: 4px;
+    }
+}

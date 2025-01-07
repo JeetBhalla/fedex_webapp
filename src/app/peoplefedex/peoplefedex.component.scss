@@ -1,0 +1,39 @@
+.fedex-main-container{
+    #people {
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+    
+    
+        #people h1 {
+            margin-top: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+            color: #4d148c;
+            font-family: Roboto, Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            
+        }
+    
+    
+    .team-member {
+        margin-bottom: 20px;
+    }
+    
+    .team-member h3 {
+        color: #4d148c;
+        font-size: 1.25em;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+    
+    .team-member p {
+        color: #4d148c;
+        font-size: 1.1em;
+        margin-top: 10px;
+        line-height: 1.6;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+}
