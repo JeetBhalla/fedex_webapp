@@ -7,25 +7,44 @@
             </span>
         </a>
         <div class="fedex-global-nav fedex-grid">
-            <div class="fedex-column">
-                <a routerLink="/wefedex" routerLinkActive="active">
-                    <span>We&#64;Fedex</span>
-                </a>
-            </div>
-            <div class="fedex-column">
-                <a routerLink="/businessfedex" routerLinkActive="active">
-                    <span>Business&#64;Fedex</span>
-                </a>
-            </div>
-            <div class="fedex-column">
-                <a routerLink="/peoplededex" routerLinkActive="active">
-                    <span>People&#64;Fedex </span>
-                </a>
-            </div>
+
+            <div class="dropdown">
+                <a  class="dropbtn" routerLink="/wefedex" routerLinkActive="active">We&#64;Fedex</a>
+                <div class="dropdown-content">
+                    <a href="#">Our Journey So
+                        Far</a>
+                    <a href="#">Our Operating
+                        Structure</a>
+                    <a href="#">What We Do</a>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <a class="dropbtn" routerLink="/businessfedex" routerLinkActive="active">Business&#64;Fedex</a>
+                <div class="dropdown-content">
+                    <a href="#">AMS</a>
+                    <a href="#">Growth</a>
+                    <a href="#">Automation & AI</a>
+                    <a href="#">Client Value</a>
+                    <a href="#">Culture</a>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <a class="dropbtn" routerLink="/peoplededex" routerLinkActive="active">People&#64;Fedex</a>
+                <div class="dropdown-content">
+                    <a href="#">Launchpad for new joiners</a>
+                    <a href="#">Learning & Proficiency </a>
+                    <a href="#">iAspire</a>
+                    <a href="#">I&D</a>
+                </div>
+              </div>
+            
 
         </div>
     </div>
 </nav>
+
 <router-outlet></router-outlet>
 
 <app-footer></app-footer>
